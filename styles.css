@@ -1,0 +1,95 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header */
+header {
+    height: 100px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#login-btn {
+    height: 40px;
+    width: 100px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#login-btn:hover {
+    background-color: #777;
+}
+
+/* Layout Containers */
+.container {
+    display: flex;
+    min-height: 80vh;
+}
+
+.left-panel, .right-panel {
+    width: 100px;
+    background-color: #ddd;
+}
+
+.center-panel {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fff;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Palindrome Checker */
+.palindrome-checker {
+    margin-top: 20px;
+}
+
+#palindrome-input {
+    width: 200px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#check-btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#check-btn:hover {
+    background-color: #218838;
+}
+
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+}
