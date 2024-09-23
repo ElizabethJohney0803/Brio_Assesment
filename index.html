@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Web Page Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Website Title</h1>
+        <button id="login-btn">Login</button>
+    </header>
+
+    <div class="container">
+        <div class="left-panel"></div>
+        <div class="center-panel">
+            <article>
+                <p>Your article content here.</p>
+                <p>Additional content in the center panel.</p>
+            </article>
+            <div class="palindrome-checker">
+                <input type="text" id="palindrome-input" placeholder="Enter text" />
+                <button id="check-btn">Check Palindrome</button>
+                <p id="result"></p>
+            </div>
+        </div>
+        <div class="right-panel"></div>
+    </div>
+
+    <footer>
+        <p>Footer Content</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
